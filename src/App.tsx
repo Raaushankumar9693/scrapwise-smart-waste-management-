@@ -45,7 +45,7 @@ const App = () => (
             <SavedItemsProvider>
               <Toaster />
               <Sonner />
-              <BrowserRouter>
+              <BrowserRouter basename="/scrapwise-smart-waste-management-/">
                 <Routes>
                   <Route path="/" element={<Index />} />
                   <Route path="/auth" element={<Auth />} />
